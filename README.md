@@ -191,13 +191,13 @@ curl -XPOST localhost:8001/consumers/ram/jwt -H "Content-Type: application/x-www
 ```
 
 ### Creating the token from key and secret
-- Go to jwt.io and paste the below in `PAYLOAD` section
+- Go to [jwt.io](https://jwt.io/) and paste the below in `PAYLOAD` section
 ```
 {
   "iss": "ramskey"
 }
 ```
-- Paste the `secret` value, shown in the previous step, in jwt.io `VERIFY SIGNATURE` section. Leave the field `secret base64 encoded` unchecked
+- Paste the `secret` value, shown in the previous step, in [jwt.io](https://jwt.io/) `VERIFY SIGNATURE` section. Leave the field `secret base64 encoded` unchecked
 - Copy the JWT token displayed
 - This is your API token
 - In my case the API token is
