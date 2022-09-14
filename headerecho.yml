@@ -1,0 +1,11 @@
+version: '3.1'
+services:
+  headerecho:
+    image: keshavprasad/headerecho:v3
+    ports:
+      - 4000:4000
+    networks:
+      - swarm
+networks:
+  swarm:
+    external: true

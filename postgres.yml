@@ -1,0 +1,15 @@
+version: '3.1'
+services:
+  postgres:
+    image: postgres:9.6
+    volumes:
+    - ./postgres_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: password
+    ports:
+      - 5432:5432
+    networks:
+      - swarm
+networks:
+  swarm:
+    external: true
