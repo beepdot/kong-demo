@@ -310,3 +310,8 @@ X-Forwarded-Port: 8000
 X-Forwarded-Proto: http
 X-Real-Ip: 10.0.0.2
 ```
+
+### Further reading and Docs
+- https://legacy-gateway--kongdocs.netlify.app/gateway-oss/0.14.x/
+- https://docs.konghq.com/hub/
+- https://konghq.com/install
